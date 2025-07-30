@@ -1,0 +1,20 @@
+{
+  "dataset": "gigahands",
+  "save_dir": "save/giga_left",
+  "overwrite": true,
+  "device": "cuda",
+  "seed": 42,
+  "batch_size": 32,
+  "num_frames": 120,
+  "context_len": 0,
+  "pred_len": 60,
+  "diffusion_steps": 50,
+  "use_ema": true,
+  "mask_frames": true,
+  "num_steps": 50000,
+  "arch": "trans_enc",
+  "text_encoder_type": "bert",
+  "log_interval": 100,
+  "save_interval": 1000,
+  "train_platform_type": "NoPlatform"
+}
